@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundbreakfast2"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@color/colorPrimary"
+        android:textSize="40dp"
+        android:gravity="center_horizontal"
+        android:text="Something to start with !"></TextView>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:text="Back"></Button>
+    <Button
+        android:id="@+id/sList"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:text="List"></Button>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/starters1"
+                android:layout_width="161dp"
+                android:layout_height="173dp"
+                android:background="@color/colorPrimaryDark"
+                android:focusable="auto"
+                android:visibility="visible"
+                app:srcCompat="@drawable/garlic"
+                android:adjustViewBounds="true"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="Garlic Bread     5$"
+                android:typeface="monospace"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/garlic_button"
+                android:layout_width="141dp"
+                android:layout_height="49dp"
+                android:text="Add to Order" />
+
+            <ImageView
+                android:id="@+id/starters2"
+                android:layout_width="161dp"
+                android:layout_height="173dp"
+                app:srcCompat="@drawable/soup" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:typeface="monospace"
+                android:textStyle="bold"
+                android:text="Soup                10$" />
+
+            <Button
+                android:id="@+id/soup_button"
+                android:layout_width="141dp"
+                android:layout_height="49dp"
+                android:text="Add to Order" />
+
+            <ImageView
+                android:id="@+id/starters3"
+                android:layout_width="161dp"
+                android:layout_height="173dp"
+                app:srcCompat="@drawable/frenchfries" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:typeface="monospace"
+                android:textStyle="bold"
+                android:text="Fries               7$" />
+
+            <Button
+                android:id="@+id/fries_button"
+                android:layout_width="141dp"
+                android:layout_height="49dp"
+                android:text="Add to Order" />
+
+            <ImageView
+                android:id="@+id/starters4"
+                android:layout_width="161dp"
+                android:layout_height="173dp"
+                app:srcCompat="@drawable/nachos" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:typeface="monospace"
+                android:textStyle="bold"
+                android:text="Nachos             12$" />
+
+            <Button
+                android:id="@+id/nachos_button"
+                android:layout_width="141dp"
+                android:layout_height="49dp"
+                android:text="Add to Order" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

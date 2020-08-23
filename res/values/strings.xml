@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BigProject</string>
+    <string name="title">Tel-Hai Restaurant</string>
+    <string name="starters">Starters</string>
+    <string name="maindish">Main Dishes</string>
+    <string name="desert">Deserts</string>
+    <string name="about">About</string>
+</resources>
